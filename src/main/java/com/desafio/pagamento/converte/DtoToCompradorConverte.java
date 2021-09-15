@@ -4,7 +4,7 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
 import com.desafio.pagamento.dto.CompradorDTO;
-import com.desafio.pagamento.entidade.Comprador;
+import com.desafio.pagamento.entity.Comprador;
 
 @Component
 public class DtoToCompradorConverte implements Converter<CompradorDTO, Comprador> {

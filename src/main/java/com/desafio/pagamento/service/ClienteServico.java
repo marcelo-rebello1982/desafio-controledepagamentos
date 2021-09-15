@@ -1,7 +1,7 @@
-package com.desafio.pagamento.servico;
+package com.desafio.pagamento.service;
 
 import com.desafio.pagamento.dto.ClienteDTO;
-import com.desafio.pagamento.entidade.Cliente;
+import com.desafio.pagamento.entity.Cliente;
 
 public interface ClienteServico {
 

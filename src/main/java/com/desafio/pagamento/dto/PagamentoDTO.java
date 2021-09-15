@@ -2,7 +2,7 @@ package com.desafio.pagamento.dto;
 
 import javax.validation.constraints.NotNull;
 
-import com.desafio.pagamento.entidade.FormaPagamento;
+import com.desafio.pagamento.entity.FormaPagamento;
 
 public class PagamentoDTO {
 

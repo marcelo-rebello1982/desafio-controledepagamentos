@@ -1,4 +1,4 @@
-package com.desafio.pagamento.entidade;
+package com.desafio.pagamento.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -6,9 +6,9 @@ import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 
 import com.desafio.pagamento.dto.ClienteDTO;
-import com.desafio.pagamento.entidade.Cliente;
+import com.desafio.pagamento.entity.Cliente;
 import com.desafio.pagamento.exception.ClienteNaoEncontradoException;
-import com.desafio.pagamento.servico.ClienteServico;
+import com.desafio.pagamento.service.ClienteServico;
 
 @Component
 public class DtoToClienteConverte implements Converter<ClienteDTO, Cliente> {

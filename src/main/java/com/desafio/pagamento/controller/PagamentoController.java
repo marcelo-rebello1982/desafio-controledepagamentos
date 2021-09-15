@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.desafio.pagamento.dto.RequisicaoPagamentoDTO;
 import com.desafio.pagamento.dto.RespostaPagamentoDTO;
-import com.desafio.pagamento.entidade.Pagamento;
-import com.desafio.pagamento.servico.PagamentoServico;
+import com.desafio.pagamento.entity.Pagamento;
+import com.desafio.pagamento.service.PagamentoServico;
 
 @RestController
 @RequestMapping("api/v1/pagamentos")

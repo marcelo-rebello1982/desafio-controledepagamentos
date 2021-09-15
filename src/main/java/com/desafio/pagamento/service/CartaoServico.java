@@ -1,9 +1,9 @@
-package com.desafio.pagamento.servico;
+package com.desafio.pagamento.service;
 
 import java.time.LocalDate;
 
-import com.desafio.pagamento.entidade.CartaoCredito;
-import com.desafio.pagamento.entidade.TipoBandeira;
+import com.desafio.pagamento.entity.CartaoCredito;
+import com.desafio.pagamento.entity.TipoBandeira;
 
 public interface CartaoServico {
 

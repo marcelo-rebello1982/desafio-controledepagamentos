@@ -1,8 +1,8 @@
-package com.desafio.pagamento.servico;
+package com.desafio.pagamento.service;
 
 import com.desafio.pagamento.dto.RequisicaoPagamentoDTO;
 import com.desafio.pagamento.dto.RespostaPagamentoDTO;
-import com.desafio.pagamento.entidade.Pagamento;
+import com.desafio.pagamento.entity.Pagamento;
 
 public interface PagamentoServico {
 

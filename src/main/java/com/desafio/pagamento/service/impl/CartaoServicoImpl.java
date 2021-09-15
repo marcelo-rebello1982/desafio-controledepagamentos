@@ -1,4 +1,4 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -7,13 +7,12 @@ import java.util.Objects;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.util.ObjectUtils;
 
-import com.desafio.pagamento.entidade.CartaoCredito;
-import com.desafio.pagamento.entidade.TipoBandeira;
+import com.desafio.pagamento.entity.CartaoCredito;
+import com.desafio.pagamento.entity.TipoBandeira;
 import com.desafio.pagamento.exception.CartaoInvalidoException;
 import com.desafio.pagamento.repositorio.CartaoRepositorio;
-import com.desafio.pagamento.servico.CartaoServico;
+import com.desafio.pagamento.service.CartaoServico;
 
 @Service
 public class CartaoServicoImpl implements CartaoServico {

@@ -4,7 +4,7 @@ import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
 
 import com.desafio.pagamento.dto.CartaoDTO;
-import com.desafio.pagamento.entidade.CartaoCredito;
+import com.desafio.pagamento.entity.CartaoCredito;
 
 @Component
 public class DtoToCartaoConverte implements Converter<CartaoDTO, CartaoCredito> {

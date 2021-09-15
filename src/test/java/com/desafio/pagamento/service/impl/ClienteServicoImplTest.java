@@ -1,4 +1,4 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -9,9 +9,9 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.desafio.pagamento.dto.ClienteDTO;
-import com.desafio.pagamento.entidade.Cliente;
+import com.desafio.pagamento.entity.Cliente;
 import com.desafio.pagamento.repositorio.ClienteRepositorio;
-import com.desafio.pagamento.servico.ClienteServico;
+import com.desafio.pagamento.service.ClienteServico;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

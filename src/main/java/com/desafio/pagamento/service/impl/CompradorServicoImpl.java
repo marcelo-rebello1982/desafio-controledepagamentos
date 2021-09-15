@@ -1,11 +1,11 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.desafio.pagamento.entidade.Comprador;
+import com.desafio.pagamento.entity.Comprador;
 import com.desafio.pagamento.repositorio.CompradorRepositorio;
-import com.desafio.pagamento.servico.CompradorServico;
+import com.desafio.pagamento.service.CompradorServico;
 
 @Service
 public class CompradorServicoImpl implements CompradorServico {

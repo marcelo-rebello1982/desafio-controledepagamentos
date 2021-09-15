@@ -1,4 +1,4 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import java.time.LocalDate;
 import java.util.Random;
@@ -6,9 +6,9 @@ import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.desafio.pagamento.entidade.Boleto;
+import com.desafio.pagamento.entity.Boleto;
 import com.desafio.pagamento.repositorio.BoletoRepositorio;
-import com.desafio.pagamento.servico.BoletoServico;
+import com.desafio.pagamento.service.BoletoServico;
 
 @Service
 public class BoletoServicoImpl implements BoletoServico {

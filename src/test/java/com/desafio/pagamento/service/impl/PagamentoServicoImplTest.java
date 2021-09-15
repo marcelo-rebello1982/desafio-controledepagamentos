@@ -1,4 +1,4 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import java.time.LocalDate;
 
@@ -19,12 +19,12 @@ import com.desafio.pagamento.dto.CompradorDTO;
 import com.desafio.pagamento.dto.PagamentoDTO;
 import com.desafio.pagamento.dto.RequisicaoPagamentoDTO;
 import com.desafio.pagamento.dto.RespostaPagamentoDTO;
-import com.desafio.pagamento.entidade.Cliente;
-import com.desafio.pagamento.entidade.Comprador;
-import com.desafio.pagamento.entidade.FormaPagamento;
-import com.desafio.pagamento.entidade.Pagamento;
+import com.desafio.pagamento.entity.Cliente;
+import com.desafio.pagamento.entity.Comprador;
+import com.desafio.pagamento.entity.FormaPagamento;
+import com.desafio.pagamento.entity.Pagamento;
 import com.desafio.pagamento.repositorio.ClienteRepositorio;
-import com.desafio.pagamento.servico.PagamentoServico;
+import com.desafio.pagamento.service.PagamentoServico;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

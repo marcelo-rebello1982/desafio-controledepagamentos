@@ -1,6 +1,6 @@
-package com.desafio.pagamento.servico;
+package com.desafio.pagamento.service;
 
-import com.desafio.pagamento.entidade.Comprador;
+import com.desafio.pagamento.entity.Comprador;
 
 public interface CompradorServico {
 

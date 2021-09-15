@@ -1,6 +1,6 @@
-package com.desafio.pagamento.servico;
+package com.desafio.pagamento.service;
 
-import com.desafio.pagamento.entidade.Boleto;
+import com.desafio.pagamento.entity.Boleto;
 
 public interface BoletoServico {
 

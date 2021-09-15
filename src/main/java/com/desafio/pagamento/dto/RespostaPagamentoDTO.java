@@ -1,7 +1,7 @@
 package com.desafio.pagamento.dto;
 
-import com.desafio.pagamento.entidade.FormaPagamento;
-import com.desafio.pagamento.entidade.Status;
+import com.desafio.pagamento.entity.FormaPagamento;
+import com.desafio.pagamento.entity.Status;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 

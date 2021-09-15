@@ -1,4 +1,4 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import java.util.Optional;
 
@@ -12,9 +12,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.desafio.pagamento.entidade.Comprador;
+import com.desafio.pagamento.entity.Comprador;
 import com.desafio.pagamento.repositorio.CompradorRepositorio;
-import com.desafio.pagamento.servico.CompradorServico;
+import com.desafio.pagamento.service.CompradorServico;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

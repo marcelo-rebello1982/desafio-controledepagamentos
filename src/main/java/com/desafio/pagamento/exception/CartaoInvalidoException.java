@@ -1,6 +1,6 @@
 package com.desafio.pagamento.exception;
 
-import com.desafio.pagamento.entidade.CartaoCredito;
+import com.desafio.pagamento.entity.CartaoCredito;
 
 public class CartaoInvalidoException extends RuntimeException {
 

@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.desafio.pagamento.entidade.CartaoCredito;
+import com.desafio.pagamento.entity.CartaoCredito;
 
 @ControllerAdvice
 public class ControllerAdviceCustom {

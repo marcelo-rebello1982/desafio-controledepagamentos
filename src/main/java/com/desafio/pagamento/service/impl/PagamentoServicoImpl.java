@@ -1,28 +1,26 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import java.time.LocalDate;
 
-import org.hibernate.criterion.Example;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.convert.ConversionService;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;
 
 import com.desafio.pagamento.dto.RequisicaoPagamentoDTO;
 import com.desafio.pagamento.dto.RespostaPagamentoDTO;
-import com.desafio.pagamento.entidade.Boleto;
-import com.desafio.pagamento.entidade.CartaoCredito;
-import com.desafio.pagamento.entidade.Cliente;
-import com.desafio.pagamento.entidade.Comprador;
-import com.desafio.pagamento.entidade.FormaPagamento;
-import com.desafio.pagamento.entidade.Pagamento;
-import com.desafio.pagamento.entidade.Status;
+import com.desafio.pagamento.entity.Boleto;
+import com.desafio.pagamento.entity.CartaoCredito;
+import com.desafio.pagamento.entity.Cliente;
+import com.desafio.pagamento.entity.Comprador;
+import com.desafio.pagamento.entity.FormaPagamento;
+import com.desafio.pagamento.entity.Pagamento;
+import com.desafio.pagamento.entity.Status;
 import com.desafio.pagamento.repositorio.PagamentoRepositorio;
-import com.desafio.pagamento.servico.BoletoServico;
-import com.desafio.pagamento.servico.CartaoServico;
-import com.desafio.pagamento.servico.CompradorServico;
-import com.desafio.pagamento.servico.PagamentoServico;
+import com.desafio.pagamento.service.BoletoServico;
+import com.desafio.pagamento.service.CartaoServico;
+import com.desafio.pagamento.service.CompradorServico;
+import com.desafio.pagamento.service.PagamentoServico;
 
 @Service
 public class PagamentoServicoImpl implements PagamentoServico {

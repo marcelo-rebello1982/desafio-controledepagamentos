@@ -1,4 +1,4 @@
-package com.desafio.pagamento.servico.impl;
+package com.desafio.pagamento.service.impl;
 
 import java.time.LocalDate;
 
@@ -10,10 +10,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.desafio.pagamento.entidade.CartaoCredito;
-import com.desafio.pagamento.entidade.TipoBandeira;
+import com.desafio.pagamento.entity.CartaoCredito;
+import com.desafio.pagamento.entity.TipoBandeira;
 import com.desafio.pagamento.exception.CartaoInvalidoException;
-import com.desafio.pagamento.servico.CartaoServico;
+import com.desafio.pagamento.service.CartaoServico;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
